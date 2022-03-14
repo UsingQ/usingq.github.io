@@ -1,0 +1,52 @@
+span {  
+	margin: 0px;  
+	padding: 0px;  
+}  
+video{  
+	position: fixed;  
+	right: 0px;  
+	bottom: 0px;  
+	min-width: 100%;  
+	min-height: 100%;  
+	height: auto;  
+	width: auto;  
+	z-index:-11
+}
+source{  
+	min-width: 100%;  
+	min-height: 100%;  
+	height: auto;  
+	width: auto;  
+} 
+@font-face {
+	font-family: 'unifont';
+	src: url(font/unifont13.ttf)
+}
+.booktop {
+	float: left;
+	width:1129px;
+	height: 59px;
+	background: url(images/booktop.png) center top no-repeat;
+	background-size: 1129px 59px;
+	margin-bottom: -1px;
+}
+.bookleft {
+	float: left;
+	width: 1129px;
+	background: #fbf2dc url(images/bookleft.png) left top repeat-y;
+	background-size: 84px 115px;
+}
+.bookright {
+	float: left;
+	width: 1129px;
+	background: url(images/bookright.png) right top repeat-y;
+	background-size: 84px 115px;
+}
+.bookfoot {
+	float: left;
+	width: 1129px;
+	height: 59px;
+	background: url(images/bookfoot.png) center top no-repeat;
+	background-size: 1129px 59px;
+	padding-bottom: 120px;
+}
