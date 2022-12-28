@@ -12,10 +12,6 @@ body {
     -o-background-size: cover;
     background-position: center 0;
 }
-@font-face {
-	font-family: 'unifont';
-	src: url(font/unifont13.ttf)
-}
 .booktop {
 	float: left;
 	width:1129px;
