@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# MC中文考古圈跨年活动——WebDisplays配置及使用
 
-You can use the [editor on GitHub](https://github.com/UsingQ/usingq.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## 需要用到：
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UsingQ/usingq.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ - MC启动器（已知PCL，HMCL，MultiMC）
+ - 客户端文件（见群）
+## PCL使用方法：
+直接下载客户端文件并解压，运行文件夹中的PCL文件
+## HMCL使用方法：
+1. 新建一个文件夹，将HMCL启动器单文件拖进去
+2. 打开HMCL，添加游戏，安装一个1.12.2Forge游戏
+3. 将HMCL生成的.minecraft替换成客户端压缩文件夹里的.minecraft
+## MultiMC使用方法
+1. 新建一个实例，版本选择1.12.2
+2. 点击“编辑实例”，给实例装上Forge
+3. 回到MultiMC主界面，点击“实例文件夹”，将里面的.minecraft替换成客户端压缩文件夹里的.minecraft
