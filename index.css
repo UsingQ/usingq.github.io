@@ -1,23 +1,7 @@
-span {  
-	margin: 0px;  
-	padding: 0px;  
-}  
-video{  
-	position: fixed;  
-	right: 0px;  
-	bottom: 0px;  
-	min-width: 100%;  
-	min-height: 100%;  
-	height: auto;  
-	width: auto;  
-	z-index:-11
+body { 
+	background: url(bg.png) ; 
+	background-repeat:no-repeat;
 }
-source{  
-	min-width: 100%;  
-	min-height: 100%;  
-	height: auto;  
-	width: auto;  
-} 
 @font-face {
 	font-family: 'unifont';
 	src: url(font/unifont13.ttf)
