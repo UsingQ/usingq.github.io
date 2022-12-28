@@ -1,16 +1,12 @@
-body { 
-	position:fixed;
-     top: 0;
-    left: 0;
-	width:100%;
-	height:100%;
-    min-width: 1000px;
-	background: url(video.gif) ; 
-	background-repeat:no-repeat;
-	background-size: cover;
-    -webkit-background-size: cover;
-    background-position: center 0;
-	backdrop-filter: blur(6px);
+.bggif{  
+	position: fixed;  
+	right: 0px;  
+	bottom: 0px;  
+	min-width: 100%;  
+	min-height: 100%;  
+	z-index:-11;
+	filter: blur(6px);
+	transform: scale(1.1);
 }
 .booktop {
 	float: left;
@@ -39,4 +35,25 @@ body {
 	background: url(images/bookfoot.png) center top no-repeat;
 	background-size: 1129px 59px;
 	padding-bottom: 120px;
+}
+.mcbutton{
+	background: url(images/button.png) center top no-repeat;
+	background-size:192px 80px;
+	text-align: center;
+	color: white;
+	width:192px;
+	height:40px;
+	font-size: 16px;
+	border: none;
+}
+.mcbutton:hover{
+	background: url(images/button.png) center bottom no-repeat;
+	background-size:192px 80px;
+	text-align: center;
+	color: white;
+	width:192px;
+	height:40px;
+	font-size: 16px;
+	border: none;
+	transition-duration: 0.0s;
 }
