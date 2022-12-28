@@ -9,8 +9,8 @@ body {
 	background-repeat:no-repeat;
 	background-size: cover;
     -webkit-background-size: cover;
-    -o-background-size: cover;
     background-position: center 0;
+	backdrop-filter: blur(6px);
 }
 .booktop {
 	float: left;
