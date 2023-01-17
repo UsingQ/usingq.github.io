@@ -24,7 +24,6 @@ function refreshCaptcha(){
                 t = Math.floor(Math.random() * 18);
             }
         }
-        console.log(t);
         randomPic[i] = t;
         document.getElementById("c" + (i + 1)).setAttribute('style', 'background: url(images/' + captchaAns[i] + t + '.jpg); background-size:90px 90px;');
         randomVis[t] = 1;
