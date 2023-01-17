@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nethwind | 2022-2023</title>
+		<link href="index.css" rel="stylesheet"/>
+		<script src="captcha.js"></script>
+		<link rel="shortcut icon" type="images/x-icon" href="favicon.ico?">
+	</head>
+	<body onload="refreshCaptcha();">
+		<div>
+			<img src="video.gif" class="bggif"/>
+			<img src="images/logo.png" alt ="mingfenglogo" style="float:left; padding-left: calc(50% - 565px);"/>
+			<div style="width: 1130px; min-height: 653px; padding-left: calc(50% - 565px); padding-top: 80px;">
+				<div class="booktop"></div>
+				<div class="bookleft">
+					<div class="bookright">
+						<div style="width: 960px; padding-left: calc(50% - 481px);">
+							<h1 style="text-align:center">主播验证器 v2.0</h1>
+                            <h2 style="text-align:center">请选出图片中的傻逼!</h2>
+                            <div class="box">
+                                <button onclick="checkAns(0)" id="c1"></button>
+								<button onclick="checkAns(1)" id="c2"></button>
+								<button onclick="checkAns(2)" id="c3"></button>
+								<button onclick="checkAns(3)" id="c4"></button>
+								<button onclick="checkAns(4)" id="c5"></button>
+								<button onclick="checkAns(5)" id="c6"></button>
+								<button onclick="checkAns(6)" id="c7"></button>
+								<button onclick="checkAns(7)" id="c8"></button>
+								<button onclick="checkAns(8)" id="c9"></button>
+                            </div>
+							<div style="width:400px;height:40px;margin: 0 auto;">
+								<button class="mcbutton" onclick="refreshCaptcha()">我不会，换一张</button>
+								<button class="mcbutton" onclick="showGrade()">检测</button>
+							</div>
+							<div id="result" style="text-align:center"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="bookfoot"></div>
+			</div>
+			</div>
+		</div>
+	</body>
+</html>

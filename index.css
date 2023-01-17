@@ -69,3 +69,18 @@ a:hover{
 	color: #FFB90F;
 	text-decoration:none;
 }
+.box {
+	display: grid;
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+	grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.box > button {
+	width: 90%;
+	margin: 5%;
+	line-height: 100px;
+	border: 20px;
+	border-color: #4169E1;
+}
