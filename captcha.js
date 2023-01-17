@@ -1,5 +1,5 @@
 var captchaAns = new Array();
-var randomVis = new Array(9).fill(0);
+var randomVis = new Array(18).fill(0);
 var randomPic = new Array();
 var vis = new Array(9).fill(0);
 var grade = 0;
@@ -10,14 +10,21 @@ function refreshCaptcha(){
     grade = 0;
     ansNum = 0;
     for(var i = 0; i < 9; ++i){
-        captchaAns[i] = Math.floor(Math.random() + 0.5);
+        captchaAns[i] = Math.round(Math.random());
         if (captchaAns[i]){
             ansNum++;
         }
         var t = Math.floor(Math.random() * 10);
-        while(randomVis[t] != 0){
-            t = Math.floor(Math.random() * 10);
+        if(captchaAns[i] == 1){
+            while(randomVis[t] != 0){
+                t = Math.floor(Math.random() * 10);
+            }
+        }else{
+            while(randomVis[t] != 0){
+                t = Math.floor(Math.random() * 18);
+            }
         }
+        console.log(t);
         randomPic[i] = t;
         document.getElementById("c" + (i + 1)).setAttribute('style', 'background: url(images/' + captchaAns[i] + t + '.jpg); background-size:90px 90px;');
         randomVis[t] = 1;
