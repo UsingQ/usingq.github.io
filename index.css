@@ -37,25 +37,22 @@
 	padding-bottom: 120px;
 }
 .mcbutton{
-	background: url(images/button.png) center top no-repeat;
-	background-size:192px 80px;
+	background: url(images/button.png) left top no-repeat;
+	background-size:394px 74px;
+	border:2px solid #000000;
 	text-align: center;
 	color: white;
-	width:192px;
-	height:40px;
+	padding:10px 18px;
 	font-size: 16px;
-	border: none;
 }
 .mcbutton:hover{
-	background: url(images/button.png) center bottom no-repeat;
-	background-size:192px 80px;
+	background: url(images/button.png) left top no-repeat;
+	background-size:384px 74px;
+	border:2px solid #FFFFFF;
 	text-align: center;
 	color: white;
-	width:192px;
-	height:40px;
+	padding:10px 18px;
 	font-size: 16px;
-	border: none;
-	transition-duration: 0.0s;
 }
 a:link{
 	color: #4169E1;
@@ -78,8 +75,11 @@ a:hover{
     grid-template-rows: repeat(3, 1fr);
 }
 .box > button {
+	border-radius: 15px;
 	width: 90%;
 	margin: 5%;
+	transition:all 0.5s;
+	transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
 	line-height: 100px;
 	border: 20px;
 	border-color: #4169E1;
