@@ -75,20 +75,20 @@ a:hover{
     grid-template-rows: repeat(3, 1fr);
 }
 .box > button {
+	border: 20px;
+	border-color: #4169E1;
 	border-radius: 15px;
 	width: 90%;
 	margin: 5%;
-	transition:all 0.5s;
-	transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+	/* transition:all 0.5s;
+	transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1); */
 	line-height: 100px;
-	border: 20px;
-	border-color: #4169E1;
 }
-.fadenblur{
+/* .fadenblur{
 	animation:fadenblur 1s 1;
 	animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 @keyframes fadenblur {
 	0%{opacity: 0; filter:blur(6px); transform: translate(0px,20px);}
 	100%{opacity: 1; filter:blur(0px); transform: translate(0px,0px);}
-}
+} */

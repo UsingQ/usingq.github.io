@@ -56,7 +56,7 @@ function checkAns(a){
             grade--;
             vis[a] = 1;
         }
-        document.getElementById("c" + (a + 1)).setAttribute('style', 'background: url(images/' + captchaAns[a] + randomPic[a] + '.jpg); background-size:90px 90px;filter:brightness(50%); transform: scale(90%,90%);');
+        document.getElementById("c" + (a + 1)).setAttribute('style', 'background: url(images/' + captchaAns[a] + randomPic[a] + '.jpg); background-size:90px 90px;filter:brightness(50%); transform: scale(90%,90%); border:2px #4169E1');
         document.getElementById("c" + (a + 1)).setAttribute('isPushed', 'Yes');
     }
 }
