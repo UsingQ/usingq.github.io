@@ -31,6 +31,7 @@ function refreshCaptcha(){
         }
         randomPic[i] = t;
         document.getElementById("c" + (i + 1)).setAttribute('style', 'background: url(images/' + captchaAns[i] + t + '.jpg); background-size:90px 90px;');
+        document.getElementById("c" + (i + 1)).setAttribute('isPushed', 'No');
         randomVis[t] = 1;
     }
 }
