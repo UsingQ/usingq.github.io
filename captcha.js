@@ -68,7 +68,6 @@ function showGrade(){
         document.getElementById("result").innerHTML = t;
     }
     else{
-        var a = GetLocalIPAddr();
         var t2 = (grade < 0) ? 0 : grade;
         t = "你是不是主播，竟然没有答对！你的分数是：" + t2 + "/" + ansNum;
         document.getElementById("result").innerHTML = t;
