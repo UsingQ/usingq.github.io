@@ -62,7 +62,6 @@ function checkAns(a){
     }
 }
 function showGrade(){
-    var a = returnCitySN["cip"] + returnCitySN["cname"];
     var t = "";
     if(grade == ansNum){
         t = '恭喜，你通过了主播验证！';
@@ -71,7 +70,7 @@ function showGrade(){
     else{
         var a = GetLocalIPAddr();
         var t2 = (grade < 0) ? 0 : grade;
-        t = "来自" + a + "的朋友，你是不是主播，竟然没有答对！你的分数是：" + t2 + "/" + ansNum;
+        t = "你是不是主播，竟然没有答对！你的分数是：" + t2 + "/" + ansNum;
         document.getElementById("result").innerHTML = t;
     }
     refreshCaptcha();
