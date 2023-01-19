@@ -1,12 +1,12 @@
-.bggif{  
-	position: fixed;  
-	right: 0px;  
+.bggif{ 
+	margin: 0 auto;
+	position: fixed;
 	bottom: 0px;  
 	min-width: 100%;  
 	min-height: 100%;  
 	z-index:-11;
 	filter: blur(6px);
-	transform: scale(1.1);
+	transform: scale(1.02);
 }
 .booktop {
 	float: left;
@@ -38,7 +38,7 @@
 }
 .mcbutton{
 	background: url(images/button.png) left top no-repeat;
-	background-size:394px 74px;
+	background-size: auto 100%;
 	border:2px solid #000000;
 	text-align: center;
 	color: white;
@@ -47,7 +47,7 @@
 }
 .mcbutton:hover{
 	background: url(images/button.png) left top no-repeat;
-	background-size:384px 74px;
+	background-size: auto 100%;
 	border:2px solid #FFFFFF;
 	text-align: center;
 	color: white;
@@ -65,24 +65,6 @@ a:visited{
 a:hover{
 	color: #FFB90F;
 	text-decoration:none;
-}
-.box {
-	display: grid;
-	height: 300px;
-	width: 300px;
-	margin: 0 auto;
-	grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
-.box > button {
-	border: 20px;
-	border-color: #4169E1;
-	border-radius: 15px;
-	width: 90%;
-	margin: 5%;
-	transition:all 0.5s;
-	transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
-	line-height: 100px;
 }
 .fadenblur{
 	animation:fadenblur 1s 1;

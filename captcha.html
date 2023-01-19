@@ -7,6 +7,30 @@
 		<script src="captcha.js"></script>
 		<link rel="shortcut icon" type="images/x-icon" href="favicon.ico?">
 	</head>
+	<style>
+		.box {
+			display: grid;
+			height: 300px;
+			width: 300px;
+			margin: 0 auto;
+			grid-template-columns: repeat(3, 1fr);
+    		grid-template-rows: repeat(3, 1fr);
+		}
+		.box > button {
+			border: 20px;
+			border-color: #4169E1;
+			border-radius: 15px;
+			width: 90%;
+			margin: 5%;
+			transition:transform 0.5s;
+			transform:scale(100%,100%);
+			transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+			line-height: 100px;
+		}
+		.box > button:hover{
+			outline: #4169E1 2px solid;
+		}
+	</style>
 	<body onload="refreshCaptcha();">
 		<img src="video.gif" class="bggif"/>
 		<div class="fadenblur">
