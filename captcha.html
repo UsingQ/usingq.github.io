@@ -12,13 +12,13 @@
 			display: grid;
 			height: 300px;
 			width: 300px;
+			padding-top: 5px;
 			margin: 0 auto;
 			grid-template-columns: repeat(3, 1fr);
     		grid-template-rows: repeat(3, 1fr);
 		}
 		.box > button {
-			border: 20px;
-			border-color: #4169E1;
+			border:none;
 			border-radius: 15px;
 			width: 90%;
 			margin: 5%;
@@ -41,7 +41,10 @@
 					<div class="bookright">
 						<div style="width: 960px; padding-left: calc(50% - 481px);">
 							<h1 style="text-align:center">主播验证器 v2.0</h1>
-                            <h2 style="text-align:center">请选出图片中的傻逼!</h2>
+							<div style="width:270px;height:80px;border-radius: 15px;margin:0 auto;padding:10px 10px;background-color: #1a73e8;color:white;">
+								<div style="font-size: 1em">请选择下列图片中所有的</div>
+								<strong style="font-size: 2em;">傻逼</strong>
+							</div>
                             <div class="box">
                                 <button onclick="checkAns(0)" id="c1"></button>
 								<button onclick="checkAns(1)" id="c2"></button>
