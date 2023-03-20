@@ -6,7 +6,7 @@
 	min-height: 100%;  
 	z-index:-11;
 	filter: blur(6px);
-	transform: scale(1.02);
+	transform: scale(1.2);
 }
 .booktop {
 	float: left;
