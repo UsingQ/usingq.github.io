@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <script src="./script.js"></script>
+    <title>盖伦，发发！</title>
+</head>
+
+<body style="background:url('./bg.png') center / 100% no-repeat !important; backdrop-filter:blur(20px) brightness(0.5)">
+    <div class="main-content">
+        <h1 style="margin:0 0 10px 0">
+            <a href="." style="color:transparent">
+                <img src="./favicon.png" alt="icon-盖伦发发" style="height:45px; vertical-align: top;">
+            </a>
+            盖伦发发翻译器
+        </h1>
+        <textarea id="plain" rows="5" placeholder="点击输入盖伦"></textarea>
+        <button id="encrypt" onclick="encryptText()">↓发发</button>
+        <button id="decrypt" onclick="decryptText()">↑盖伦</button>
+        <span id="output"></span>
+        <textarea id="cipher" rows="5" placeholder="点击输入发发"></textarea>
+    </div>
+</body>
