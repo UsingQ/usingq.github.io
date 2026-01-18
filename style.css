@@ -1,5 +1,5 @@
 body {
-    background: #111;
+    background: #16161e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,10 +9,10 @@ body {
 }
 
 textarea {
-    background: #222;
+    background: #222432;
     padding: 10px;
-    color: #eee;
-    border: 1px solid #555;
+    color: #a5aed6;
+    border: 1px solid #292934;
     border-radius: 16px;
     width: 100%;
     resize: none;
@@ -20,6 +20,7 @@ textarea {
     box-sizing: border-box;
     font-family: inherit;
     scrollbar-width: none;
+    field-sizing: content;
 }
 
 textarea::-webkit-scrollbar {
@@ -28,10 +29,11 @@ textarea::-webkit-scrollbar {
 
 textarea:focus {
     outline: none;
-    border: 1px solid #aaa;
+    border: 1px solid #62627c;
 }
 
 button {
+    background-color: #535d78;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     min-width: 16px;
     height: 40px;
@@ -86,8 +88,8 @@ button:focus:not(:active)::after {
 }
 
 .main-content {
-    color: #eee;
-    background-color: #333;
+    color: #a5aed6;
+    background-color: #1b1b25;
     border-radius: 16px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     padding: 32px;
