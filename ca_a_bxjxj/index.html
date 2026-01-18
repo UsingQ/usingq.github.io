@@ -8,9 +8,35 @@
     <link rel="icon" type="image/png" href="./favicon.jpg">
     <script src="./script.js"></script>
     <title>Ca a爆笑精选集</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            position: relative;
+            color: white;
+        }
+
+        body::before {
+            content: "";
+            background: url('./bg.png') center / cover no-repeat fixed;
+
+            filter: blur(20px) brightness(0.5);
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            z-index: -1;
+
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 
-<body style="background:url('./bg.png') center / cover no-repeat fixed !important; backdrop-filter:blur(20px) brightness(0.5)">
+<body>
     <div class="main-content">
         <audio src="./caa.mp3" style="display:none" autoplay loop controls></audio>
         <h1 style="margin:0 0 10px 0">
